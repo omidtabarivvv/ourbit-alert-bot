@@ -55,7 +55,8 @@ def get_old_price(symbol):
     if len(candles) < 2:
         return None
 
-    return float(candles[0][4])def check_market():
+    return float(candles[0][4])
+    def check_market():
 
     symbols = get_symbols()
 
