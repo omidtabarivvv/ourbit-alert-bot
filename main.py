@@ -56,6 +56,8 @@ def get_old_price(symbol):
         return None
 
     return float(candles[0][4])
+    
+    
     def check_market():
 
     symbols = get_symbols()
